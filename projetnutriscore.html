@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projetnutriscore.css">
+    <title>Projet Nutriscore - Bao-Long TRAN</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Bao-Long<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="portfolio.html" class="nav-item">Profil global</a></li>
+            <li><a href="projet.html" class="nav-item active">Projets</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <a href="projet.html" class="back-link">&larr; Retour aux projets</a>
+
+    <article class="project-detail-card">
+        <header class="project-header">
+            <span class="tech-badge">SQL / R / Data Analysis</span>
+            <h1>Projet d'analyse de données "Nutriscore"</h1>
+            <p class="project-summary">Extraction, nettoyage et visualisation de données en Open Source relatives au système d'analyse nutritionnelle Nutriscore.</p>
+        </header>
+
+         <div class="project-gallery">
+            <div class="img-wrapper logo-nutriscore">
+                <img src="2020-07-21_11_47_20-.png.webp" alt="Logo Nutriscore">
+            </div>
+            <div class="img-wrapper tech-logos">
+                <img src="sql_data_base_with_logo.png" alt="Technologies SQL">
+            </div>
+        </div>
+
+        <div class="project-sections">
+            <div class="section-block">
+                <h2>1. Extraction et structuration des données</h2>
+                <p>En utilisant le langage SQL, j'ai extrait et ordonné des données volumineuses, fiables et pertinentes issues de bases de données publiques en open source. Ce processus a nécessité la mise en place de requêtes ciblées pour isoler et nettoyer les informations nutritionnelles essentielles des produits alimentaires concernés par le Nutriscore
+
+            <div class="section-block">
+                <h2>2. Modélisation et Tendances</h2>
+                <p>Grâce au langage R, j'ai exploité ces données triées pour générer des graphiques et des tableaux analytiques. Ces livrables mettent en lumière les grandes tendances nutritionnelles de certaines catégories de produits, facilitant ainsi la compréhension des facteurs qui influencent l'attribution des scores.</p>
+            </div>
+            
+            <div class="section-block">
+                <h2>Technologies et Outils</h2>
+                <div class="skills-used">
+                    <span class="skill-tag">SQL (Extraction & Tri)</span>
+                    <span class="skill-tag">Langage R (Analyse & Graphiques)</span>
+                    <span class="skill-tag">Open Data</span>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+
+<footer>
+    <section class="contact">
+        <h2>Contactez-moi</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+            </div>
+            <button type="submit" class="btn-contact">Envoyer</button>
+        </form>
+    </section>
+</footer>
+
+</body>
+</html>

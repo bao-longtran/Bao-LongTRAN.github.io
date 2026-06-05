@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projetAtos.css">
+    <title>Projet Atos - Bao-Long TRAN</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Bao-Long<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="accueil.html" class="nav-item">Profil global</a></li>
+            <li><a href="projet.html" class="nav-item active">Projets</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <a href="projet.html" class="back-link">&larr; Retour aux projets</a>
+
+    <article class="project-detail-card">
+        <header class="project-header">
+            <span class="tech-badge">HTML, CSS, JavaScript</span>
+            <h1>Projet de développement web pour l'entreprise Atos</h1>
+            <p class="project-summary">Création d'un site web informatif axé sur les services et les engagements écoresponsables de l'entreprise.</p>
+        </header>
+
+        <div class="project-gallery">
+            <div class="img-wrapper logo-atos">
+                <img src="Atos_logo.svg.png" alt="Logo Atos">
+            </div>
+            <div class="img-wrapper tech-logos">
+                <img src="1687863268726.png" alt="Technologies HTML, CSS & JS">
+            </div>
+        </div>
+
+        <div class="project-sections">
+            <div class="section-block">
+                <h2>1. Recueil des informations</h2>
+                <p>La première phase a consisté à analyser en profondeur les services fournis par Atos. Une attention toute particulière a été accordée à la collecte de données sur leur engagement environnemental et leurs politiques de responsabilité sociétale des entreprises (RSE).</p>
+            </div>
+
+            <div class="section-block">
+                <h2>2. Implémentation et Développement</h2>
+                <p>À partir des données collectées, j'ai conçu et développé l'architecture complète du site web. L'objectif était de retransmettre ces informations de manière claire, moderne et intuitive pour les utilisateurs.</p>
+            </div>
+            
+            <div class="section-block">
+                <h2>Technologies Appliquées</h2>
+                <div class="skills-used">
+                    <span class="skill-tag">HTML5 (Structure sémantique)</span>
+                    <span class="skill-tag">CSS3 (Stylisation & Design)</span>
+                    <span class="skill-tag">JavaScript (Interactions dynamiques)</span>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+
+<footer>
+    <section class="contact">
+        <h2>Contactez-moi</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+            </div>
+            <button type="submit" class="btn-contact">Envoyer</button>
+        </form>
+    </section>
+</footer>
+
+</body>
+</html>
